@@ -5,29 +5,10 @@ body {
   font-color:#333333;
   overflow-x: hidden; 
   background: #FFFFFF;
-  padding-top: 15px;
+  padding: 25px;
 }
-.row {
-  background: #DEDDEA;
-  height: 500px;
-  width:auto;
-  margin: 5px 105px 10px;
-}
-img{
-  height: 75px;
-  width:70px;
-}
-.indificaton{
-  padding: 5px;
-  width:70px;
-  font-color:#925a00;
-}
-.reviewArea {
-margin: 5px 105px 10px;
-border-bottom: 1px solid #f39100;
-}
-.media-body{
-  background: #F7F3ED;
-}
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
 
 

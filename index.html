@@ -2,216 +2,218 @@
 <html lang="en" ng-app="reviewsApp">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<title>Alex Angular Rviews App</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
 	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
 </head>
 <body ng-controller="Reviews">
-<button class = "btn btn-success">Ура, я подключил Bootstrap!</button><button class = "btn btn-success">Ура, я подключил Bootstrap!</button>button class = "btn btn-success">подключил Bootstrap!</button><button class = "btn btn-success">Ура, я подключил Bootstrap!</button>
+
     <div class="row">
 		<div class="col-xs-12 hidden-print">
 			<div id="formulaReviews">
-				<legend class="grey_legend">Отзывы</legend>
-				<ul class="reviews-branch">
-					<li class="review_parent" data-id="114" data-parent-id="0">
-						<div class="review" id="review_114" data-id="114" itemprop="review" itemscope="" itemtype="http://schema.org/Review">
-							<div class="row">
-								<div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">
-									<p class="tr">
-										<a href="/users/110/">
-											<img src="/wa-content/img/userpic50.jpg" class="review_avatar img-responsive" alt="">
-										</a>
-									</p>
-									<div class="clear"></div>
-									<p class="tr review_author_name">
-										<a href="/users/110/">
-											<em>мацинский владимир михайлович</em>
-										</a>
-									</p>
-								</div>
-
-								<div class="col-xs-8 col-sm-10 col-md-11 col-lg-11">
-
-									<div class="row">
-										<div class="col-xs-4">
-											<div class="summary">
-												<meta itemprop="datePublished" content="2017-04-13">
-
-
-												<span itemprop="reviewRating" class="reviewRating" itemscope="" itemtype="http://schema.org/Rating">
-													<meta itemprop="worstRating" content="1">
-													<meta itemprop="ratingValue" content="5">
-													<meta itemprop="bestRating" content="5">
-													<i class="icon10 star"></i><i class="icon10 star"></i><i class="icon10 star"></i><i class="icon10 star"></i><i class="icon10 star"></i>
-												</span>
-
-
-												<span class="review_datetime">
-													13 апреля 2017 06:34
-												</span>
-
-											</div>	
-										</div>
-										<div class="col-xs-8">
-											<div class="pull-right review_helpful">
-
-												<span class="text-muted small percentage_of_benefits">
-													<i>100</i>% пользователей считают этот отзыв полезным
-												</span> &nbsp;&nbsp;
-
-												<button rel="114" class="va_middle btn btn_icon   reviews_is_helpful" data-original-title="" title="">
-												<span class="icon thumbs_up"></span> 
-												<font class="small countHelpful">2</font>
-												</button> 
-
-													&nbsp;&nbsp;
-												<button rel="114" class="va_middle btn btn_icon  reviews_is_not_helpful" data-original-title="" title="">
-												<span class="icon thumbs_down"></span> 
-												<font class="small countNotHelpful">0</font>
-												</button> 
-											</div>
-										</div>
+					<legend class="grey_legend">Отзывы</legend>
+					<ul class="reviews-branch">
+						<li class="review_parent" data-id="114" data-parent-id="0">
+							<div class="review" id="review_114" data-id="114" itemprop="review" itemscope="" itemtype="http://schema.org/Review">
+								<div class="row">
+									<div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">
+										<p class="tr">
+											<a href="/users/110/">
+												<img src="/wa-content/img/userpic50.jpg" class="review_avatar img-responsive" alt="">
+											</a>
+										</p>
+										<div class="clear"></div>
+										<p class="tr review_author_name">
+											<a href="/users/110/">
+												<em>мацинский владимир михайлович</em>
+											</a>
+										</p>
 									</div>
 
-									<div itemprop="description" class="review_description">
+									<div class="col-xs-8 col-sm-10 col-md-11 col-lg-11">
 
-									<p><em>неплохая формула.мной немного скорректирована под авто.спасибо.</em></p>
+										<div class="row">
+											<div class="col-xs-4">
+												<div class="summary">
+													<meta itemprop="datePublished" content="2017-04-13">
 
 
+													<span itemprop="reviewRating" class="reviewRating" itemscope="" itemtype="http://schema.org/Rating">
+														<meta itemprop="worstRating" content="1">
+														<meta itemprop="ratingValue" content="5">
+														<meta itemprop="bestRating" content="5">
+														<i class="icon10 star"></i><i class="icon10 star"></i><i class="icon10 star"></i><i class="icon10 star"></i><i class="icon10 star"></i>
+													</span>
 
 
+													<span class="review_datetime">
+														13 апреля 2017 06:34
+													</span>
 
-										<div class="clearfix"></div>
+												</div>	
+											</div>
+											<div class="col-xs-8">
+												<div class="pull-right review_helpful">
+
+													<span class="text-muted small percentage_of_benefits">
+														<i>100</i>% пользователей считают этот отзыв полезным
+													</span> &nbsp;&nbsp;
+
+													<button rel="114" class="va_middle btn btn_icon   reviews_is_helpful" data-original-title="" title="">
+													<span class="icon thumbs_up"></span> 
+													<font class="small countHelpful">2</font>
+													</button> 
+
+														&nbsp;&nbsp;
+													<button rel="114" class="va_middle btn btn_icon  reviews_is_not_helpful" data-original-title="" title="">
+													<span class="icon thumbs_down"></span> 
+													<font class="small countNotHelpful">0</font>
+													</button> 
+												</div>
+											</div>
 										</div>
 
-										<div class="actions">
-											<a href="#" class="review-reply btn btn-xs btn-link btn-ajaxlink">
-												<i class="glyphicon glyphicon-comment"></i> <span>ответить</span>
-											</a>	
-										</div>
-										<div class="clearfix"></div>
+										<div itemprop="description" class="review_description">
+
+										<p><em>неплохая формула.мной немного скорректирована под авто.спасибо.</em></p>
+
+
+
+
+
+											<div class="clearfix"></div>
+											</div>
+
+											<div class="actions">
+												<a href="#" class="review-reply btn btn-xs btn-link btn-ajaxlink">
+													<i class="glyphicon glyphicon-comment"></i> <span>ответить</span>
+												</a>	
+											</div>
+											<div class="clearfix"></div>
+									</div>
 								</div>
+
+								<div class="modal fade" id="DeleteReview_114" tabindex="-1" role="dialog">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+												<h4 class="modal-title">неплохая формула.мной немного скорректирована под авто.спасибо.</h4>
+											</div>
+											<div class="modal-body">
+												<p>Отзыв будет удален <strong>безвозвратно</strong>. Пожалуйста, подтвердите удаление.</p>
+												<div class="message"></div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+												<a href="/my/reviews/114/delete/" data-loading-text="Удаление отзыва..." class="btn deleteReviewBtn btn-danger">Удалить</a>
+											</div>
+										</div><!-- /.modal-content -->
+									</div><!-- /.modal-dialog -->
+								</div><!-- /.modal fade -->
 							</div>
 
-							<div class="modal fade" id="DeleteReview_114" tabindex="-1" role="dialog">
-								<div class="modal-dialog">
-									<div class="modal-content">
-										<div class="modal-header">
-											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-											<h4 class="modal-title">неплохая формула.мной немного скорректирована под авто.спасибо.</h4>
-										</div>
-										<div class="modal-body">
-											<p>Отзыв будет удален <strong>безвозвратно</strong>. Пожалуйста, подтвердите удаление.</p>
-											<div class="message"></div>
-										</div>
-										<div class="modal-footer">
-											<button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
-											<a href="/my/reviews/114/delete/" data-loading-text="Удаление отзыва..." class="btn deleteReviewBtn btn-danger">Удалить</a>
-										</div>
-									</div><!-- /.modal-content -->
-								</div><!-- /.modal-dialog -->
-							</div><!-- /.modal fade -->
-						</div>
+							<ul class="menu-v with-icons reviews-branch">						  		  
 
-						<ul class="menu-v with-icons reviews-branch">						  		  
+								<ul class="menu-v with-icons reviews-branch">
+									<li data-id="115" data-parent-id="114" type="circle">
+										<div class="review" id="review_115" data-id="115" itemprop="review" itemscope="" itemtype="http://schema.org/Review">
+											<div class="row">
+												<div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">
+													<p class="tr">
+														<a href="/users/1/">
+															<img src="/wa-data/public/contacts/photos/01/00/1/1646716935.50x50.jpg" class="review_avatar img-responsive" alt="">
+														</a>
+													</p>
+													<div class="clear"></div>
+													<p class="tr review_author_name">
+														<a href="/users/1/">
+															<em>Архипов Николай</em>
+														</a>
+													</p>
+												</div>
 
-							<ul class="menu-v with-icons reviews-branch">
-								<li data-id="115" data-parent-id="114">
-									<div class="review" id="review_115" data-id="115" itemprop="review" itemscope="" itemtype="http://schema.org/Review">
-										<div class="row">
-											<div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">
-												<p class="tr">
-													<a href="/users/1/">
-														<img src="/wa-data/public/contacts/photos/01/00/1/1646716935.50x50.jpg" class="review_avatar img-responsive" alt="">
-													</a>
-												</p>
-												<div class="clear"></div>
-												<p class="tr review_author_name">
-													<a href="/users/1/">
-														<em>Архипов Николай</em>
-													</a>
-												</p>
-											</div>
+												<div class="col-xs-8 col-sm-10 col-md-11 col-lg-11">
 
-											<div class="col-xs-8 col-sm-10 col-md-11 col-lg-11">
+													<div class="row">
+														<div class="col-xs-4">
+															<div class="summary">
+																<meta itemprop="datePublished" content="2017-04-13">
+																<span class="review_datetime">
+																		13 апреля 2017 10:21
+																</span>
+															</div>	
+														</div>
+														<div class="col-xs-8">
+															<div class="pull-right review_helpful">
+																<span class="text-muted small percentage_of_benefits" style="display:none;">
+																	<i>0</i>% пользователей считают этот отзыв полезным
+																</span> &nbsp;&nbsp;
 
-												<div class="row">
-													<div class="col-xs-4">
-														<div class="summary">
-															<meta itemprop="datePublished" content="2017-04-13">
-															<span class="review_datetime">
-																	13 апреля 2017 10:21
-															</span>
-														</div>	
-													</div>
-													<div class="col-xs-8">
-														<div class="pull-right review_helpful">
-															<span class="text-muted small percentage_of_benefits" style="display:none;">
-																<i>0</i>% пользователей считают этот отзыв полезным
-															</span> &nbsp;&nbsp;
-
-															<button rel="115" class="va_middle btn btn_icon   reviews_is_helpful" data-original-title="" title="">
-																<span class="icon thumbs_up"></span> 
-																<font class="small countHelpful">0</font>
-															</button> 
-																	&nbsp;&nbsp;
-															<button rel="115" class="va_middle btn btn_icon  reviews_is_not_helpful" data-original-title="" title="">
-																<span class="icon thumbs_down"></span> 
-																<font class="small countNotHelpful">0</font>
-															</button> 
+																<button rel="115" class="va_middle btn btn_icon   reviews_is_helpful" data-original-title="" title="">
+																	<span class="icon thumbs_up"></span> 
+																	<font class="small countHelpful">0</font>
+																</button> 
+																		&nbsp;&nbsp;
+																<button rel="115" class="va_middle btn btn_icon  reviews_is_not_helpful" data-original-title="" title="">
+																	<span class="icon thumbs_down"></span> 
+																	<font class="small countNotHelpful">0</font>
+																</button> 
+															</div>
 														</div>
 													</div>
-												</div>
 
-												<div itemprop="description" class="review_description">
+													<div itemprop="description" class="review_description">
 
-													<p>
-														<em>Вы можете выкладывать свою скорректированную формулу, возможно она кому-нибудь пригодится :) даже вам, в будущем, если клиент приедет за новой порцией этой же краски.</em>
-													</p>
+														<p>
+															<em>Вы можете выкладывать свою скорректированную формулу, возможно она кому-нибудь пригодится :) даже вам, в будущем, если клиент приедет за новой порцией этой же краски.</em>
+														</p>
+														<div class="clearfix"></div>
+													</div>
+
+													<div class="actions">
+														<a href="#" class="review-reply btn btn-xs btn-link btn-ajaxlink">
+															<i class="glyphicon glyphicon-comment"></i> <span>ответить</span>
+														</a>	
+													</div>
 													<div class="clearfix"></div>
 												</div>
-
-												<div class="actions">
-													<a href="#" class="review-reply btn btn-xs btn-link btn-ajaxlink">
-														<i class="glyphicon glyphicon-comment"></i> <span>ответить</span>
-													</a>	
-												</div>
-												<div class="clearfix"></div>
 											</div>
+
+											<div class="modal fade" id="DeleteReview_115" tabindex="-1" role="dialog">
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+															<h4 class="modal-title">Вы можете выкладывать свою скорректированную формулу, возможно она кому-нибудь пригодится :) даже вам, в будущем, если клиент приедет за новой порцией этой же краски.</h4>
+														</div>
+														<div class="modal-body">
+															<p>Отзыв будет удален <strong>безвозвратно</strong>. Пожалуйста, подтвердите удаление.</p>
+															<div class="message"></div>
+														</div>
+													<div class="modal-footer">
+														<button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+														<a href="/my/reviews/115/delete/" data-loading-text="Удаление отзыва..." class="btn deleteReviewBtn btn-danger">Удалить</a>
+													</div>
+													</div><!-- /.modal-content -->
+												</div><!-- /.modal-dialog -->
+											</div><!-- /.modal fade -->
 										</div>
 
-										<div class="modal fade" id="DeleteReview_115" tabindex="-1" role="dialog">
-											<div class="modal-dialog">
-												<div class="modal-content">
-													<div class="modal-header">
-														<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-														<h4 class="modal-title">Вы можете выкладывать свою скорректированную формулу, возможно она кому-нибудь пригодится :) даже вам, в будущем, если клиент приедет за новой порцией этой же краски.</h4>
-													</div>
-													<div class="modal-body">
-														<p>Отзыв будет удален <strong>безвозвратно</strong>. Пожалуйста, подтвердите удаление.</p>
-														<div class="message"></div>
-													</div>
-												<div class="modal-footer">
-													<button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
-													<a href="/my/reviews/115/delete/" data-loading-text="Удаление отзыва..." class="btn deleteReviewBtn btn-danger">Удалить</a>
-												</div>
-												</div><!-- /.modal-content -->
-											</div><!-- /.modal-dialog -->
-										</div><!-- /.modal fade -->
-									</div>
+											<!-- sub review placeholder -->
 
-										<!-- sub review placeholder -->
+										<ul class="menu-v with-icons reviews-branch"></ul>
+									</li>
+								</ul>
 
-									<ul class="menu-v with-icons reviews-branch"></ul>
-								</li>
+								<ul class="menu-v with-icons reviews-branch"></ul>
 							</ul>
-
-							<ul class="menu-v with-icons reviews-branch"></ul>
-						</ul>
-					</li>
-				</ul>
+						</li>
+					</ul>
 
 					<div class="blank"></div> <div class="blank"></div> <div class="blank"></div>
 
@@ -235,8 +237,26 @@
 			</div>
 		</div>
 	</div>
-  	
+	
+  	<md-dialog>
+	  <form>
+	    <md-input-container>
+	      <label for="testInput">Label</label>
+	      <input id="testInput" type="text" md-autofocus>
+	    </md-input-container>
+	  </form>
+	</md-dialog>
+
+	
+
+
+
 	<ng-view></ng-view>
+	 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+	  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+	  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+	  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
 	<script src="bower_components/angular/angular.js"></script>
 	<script src="js/controllers.js"></script>
 </body>
